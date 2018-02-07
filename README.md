@@ -12,7 +12,9 @@ cd [repo name]
 
 ## Requirements
 
-Check out the [simple wireframe](https://app.moqups.com/chortlehoort/uGBbLbK46Y/view/page/a3bd0c733) for this application on Moqups.com. You can make your final interface as fancy as you like, but keep the general layout similar to the wireframe.
+The users for this chat application are NSS students. You must interview at least two students and come up with a persona and challenge statement that your application will be built for.
+
+Your group will use the following [style guide](https://dribbble.com/shots/2446062-UI-Guide/attachments/476263) for this application. Make sure you sketch the screens as part of your planning process. The design of the final interface is up to your group. 
 
 ### Navigation bar
 
@@ -29,8 +31,9 @@ Check out the [simple wireframe](https://app.moqups.com/chortlehoort/uGBbLbK46Y/
 ### Options
 
 1. Create two checkboxes below the message input field. One labeled "Dark theme" and the other labeled "Large text".
-1. When the user clicks on the dark theme checkbox, change the background color of your application to a dark gray, and the font color for messages should be white(ish)... you pick.
-1. If the user unchecks the box, the background color should change back to white with black text for messages.
+1. When the user clicks on the dark theme checkbox, change the background color of your application to a darker shade, and the font color for messages should be light.
+1. If the user unchecks the box, the background color should change back to a lighter color with darker color text for messages.
+1. Make sure for both themes, you stick to the provided style guide.
 
 ### Messages
 1. When the page is first loaded, you must load 5 messages from a local JSON file and pre-fill a message area `<div>` below the input field that will also hold all new messages as they get created.
@@ -41,11 +44,11 @@ Check out the [simple wireframe](https://app.moqups.com/chortlehoort/uGBbLbK46Y/
 
 ### Modular Code
 
-Create multiple IIFEs, following the Single Responsibility Principle, that perform the following functions. The name of your global variable that gets augmented by the IIFEs should be `Chatty`.
+Create multiple private modules, using Browserify, that perform the following functions.
 
-1. One IIFE should load the JSON file and returns the array of objects.
-1. One IIFE should contain a function that accepts an element `id`, and the user message, and then add the user's message - along with the delete button - to the specified parent element. Each message should be stored in a private array in this IIFE. This IIFE should also expose a function to read all messages, and delete a single message.
-1. One IIFE should accept a message element `id` and then remove the correct element from the DOM. This IIFE should also remove the corresponding message from the private array that was created in the previous IIFE.
+1. One module should load the JSON file and returns the array of objects.
+1. One module should contain a function that accepts an element `id`, and the user message, and then add the user's message - along with the delete button - to the specified parent element. Each message should be stored in a private array in this module. This module should also expose a function to read all messages, and delete a single message.
+1. One module should accept a message element `id` and then remove the correct element from the DOM. This module should also remove the corresponding message from the private array that was created in the previous module.
 
 ## Helpful hints
 
@@ -134,3 +137,9 @@ var users = {
 
 1. Put a timestamp on each message.
 1. Again, this will change the structure of your JSON file.
+
+## Presentations
+
+1. Each group's presentation should be no more than seven minutes (plan and practice so you are ready to go). 
+1. Your presentation must include: challenge statement, persona, demo of your application, lessons learned about development & design.
+1. Present like you are presenting to potential new clients (think: Shark Tank).
