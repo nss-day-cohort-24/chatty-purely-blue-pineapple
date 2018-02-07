@@ -16,6 +16,8 @@ The users for this chat application are NSS students. You must interview at leas
 
 Your group will use the following [style guide](https://dribbble.com/shots/2446062-UI-Guide/attachments/476263) for this application. Make sure you sketch the screens as part of your planning process. The design of the final interface is up to your group. 
 
+Make sure you spend time defining MVP and creating a plan to reach that goal.
+
 ### Navigation bar
 
 1. Create an element to serve as the navigation bar for your application.
