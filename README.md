@@ -16,7 +16,19 @@ The users for this chat application are NSS students. You must interview at leas
 
 Your group will use the following [style guide](https://dribbble.com/shots/2446062-UI-Guide/attachments/476263) for this application. Make sure you sketch the screens as part of your planning process. The design of the final interface is up to your group. 
 
-Make sure you spend time defining MVP and creating a plan to reach that goal.
+Make sure you spend time defining MVP and creating a plan to reach that goal. Use Github projects to create issues/tasks to track the progress of your project.
+
+### Technical Requirements
+
+1. Sass
+1. Bootstrap
+1. Grunt
+1. Browserify
+1. JSHint
+1. JSON
+1. XHR
+1. Javascript
+1. HTML
 
 ### Navigation bar
 
