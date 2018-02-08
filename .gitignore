@@ -3,3 +3,4 @@ lib/.sass-cache
 dist/
 css/
 .DS_Store
+dummy.html
