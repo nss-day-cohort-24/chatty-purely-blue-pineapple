@@ -1,10 +1,12 @@
 {
-    "messages":[
+    "messages" :[
         {"firstMessage":"Hey Marc!"}, 
         {"secondMessage":"How's are you?"},
         {"thirdMessage":"You up?"},
         {"fourthMessage":"Why aren't you answering me?"},
         {"fifthMessage":"Are you ghosting me rn?"}
     ]
-    }
+}
+
+
 
