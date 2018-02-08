@@ -7,8 +7,27 @@ $gray-color:#aaaaaa;
 $black-color: #1b1d28;
 
 
+html,
+body,
+ul,
+ol {
+  margin:  0;
+  padding: 0;
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+}
+
+body {
+    font: $font-body;
+}
+
 .logo { 
    display: block;
+   padding: .5rem 0 1rem 0;
 }
 
 .nav-wrapper {
@@ -23,42 +42,39 @@ $black-color: #1b1d28;
     padding: 6em 3em;
 }
 
-.navbar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 25px;
-    color: white;
-    display: block;
-}
-
-.navbar a:hover {
-    color: $cyanLink-color;
-}
-
 .navbar-brand {
     display: block;
     color: white;
-    font-size: 16px;
+    font-size: 10px;
+    letter-spacing:.1rem;
     margin-bottom: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-.form-group label {
-    color: white;
-    margin: 2em 0 1em 0;
-    font-size: 2rem;
+.navbar-brand a:hover {
+    color: $cyanLink-color;
 }
 
 .form-check-label {
     color: $gray-color;
 }
 
-.form_input {
+.form-input {
     width: 100%;
     height: auto;
     background-color: $lightGray-color;
     white-space: initial;
     padding: .1rem .7rem;
+}
+
+.user {
+    font-family: $font-head;
+    color: $darkBlue-color;
+    opacity: .3;
+    font-size: 48pt;
+    color: white;
+    margin: 2rem 0 .5rem 0;
 }
 
 .btn-small {
@@ -67,11 +83,14 @@ $black-color: #1b1d28;
     padding: .1rem .7rem;
     color: white;
     font-size: .6em;
+    float: right;
+    text-transform: uppercase;
 }
 
 .btn-small:hover {
-    color: white;
-    border: 1px $gray-color;
+    background-color: white;
+    border-style: 2px solid $gray-color;
+    color: $gray-color;
 }
 
 .message-Container {
@@ -85,6 +104,12 @@ $black-color: #1b1d28;
     left: 0;
     background-color: white;
     overflow-x: hidden;
-    padding: 3rem;
-
+    padding: 6em 4em;
 }
+
+
+
+
+
+
+
