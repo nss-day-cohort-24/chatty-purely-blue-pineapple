@@ -94,6 +94,16 @@ body {
     color: $gray-color;
 }
 
+.btn-small:disabled {
+    border-radius: 1.5rem;
+    background-color: $gray-color;
+    padding: .1rem .7rem;
+    color: white;
+    font-size: .6em;
+    float: right;
+    text-transform: uppercase;
+ }
+
 .message-Container {
     height: 100%;
     width: 50%;
@@ -108,10 +118,10 @@ body {
     padding: 6em 4em;
 }
 
-
-
-
-
+.message-header {
+    display: block;
+    padding-bottom: 3em;
+}
 
 
 
