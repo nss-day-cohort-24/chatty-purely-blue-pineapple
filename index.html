@@ -21,8 +21,9 @@
 
     <header class="nav-wrapper">
         <nav>
+            <img src="img/pineapple-logo-01.svg" class="logo" alt="Blue Pineapple post logo" style="max-width: 33%; object-fit: contain;">
             <a class="navbar-brand" href="#">Blue Pineapple Post</a>
-            <img scr="" class="logo" alt="Blue Pineapple post logo">
+            
 
         <!-- form message input in nav bar-->
 
@@ -36,12 +37,12 @@
         <!-- click buttons to change styles -->
 
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                <label class="form-check-label" for="inlineRadio1">Midnight Theme</label>
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Midnight Theme</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Larger text</label>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">Larger text</label>
             </div>
             <!-- <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
@@ -54,15 +55,15 @@
     <main class="message-Container">
 
         <section class="message-Container-wrapper">
-            
+            <div class="message-header">
                 <h4 style="color:#7acdcf">Name of channel</h4>
                 <hr style="padding-bottom: 16px">
 
                 <!-- clear all message button here  -->
                 <button type="button" class="btn-small" id="clear-btn">clear all post</button>
-               
+            </div>   
 
-            <div id="messages"> <!-- message will appear in this div  -->
+            <div id="messages" class="message-post"> <!-- message will appear in this div  -->
             </div>
 
         </section><!-- close message-Container-wrapper  -->
