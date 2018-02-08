@@ -30,9 +30,18 @@ var newMessage = document.getElementById("navbar-user-message").value;
 //!!!Remember to erase message in textarea before you merge!!!!!
 console.log(newMessage);
 
-// Delete single message from JSON
-// id ="delete"
 
+
+// Delete single message 
+document.querySelector("body").addEventListener("click", deleteMessage);
+
+function deleteMessage(event) {
+    if (event.target.className === "delete") {
+       event.target.parentNode.remove();
+        console.log("test");
+        console.log(event.target.parentNode);
+    }
+}
 
 module.export = {newMessage};
 

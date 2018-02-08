@@ -20,7 +20,7 @@ function showMessage(inputJSON){
     for (let item in inputJSON){
         let messageItem = inputJSON[item];
         console.log(inputJSON[item]);
-        messageStuff += "<div id=newMessage>" + messageItem.message + "<button id=delete type=`button`>X</button></div>";
+        messageStuff += "<div class=newMessage>" + messageItem.message + "<button class=delete type=button>X</button></div>";
     }
     messageDiv.innerHTML = messageStuff;
 }
@@ -50,7 +50,7 @@ function messageEnter(){
 
 function messageDisplay(){
     let messageDiv = document.getElementById("messages");
-    messageDiv.innerHTML += "<div id=newMssage>" + inputMessage.value + "<button tpye =`button`>X</button></div>";
+    messageDiv.innerHTML += "<div class=newMessage>" + inputMessage.value + "<button class=delete type =button>X</button></div>";
     messageHistory.unshift(inputMessage.value);
     inputMessage.value = '';
     console.log("New History:", messageHistory);
