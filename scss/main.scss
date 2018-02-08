@@ -27,7 +27,7 @@ body {
 
 .logo { 
    display: block;
-   padding: .5rem 0 1rem 0;
+   align-items: left;
 }
 
 .nav-wrapper {
@@ -39,13 +39,13 @@ body {
     right: 0;
     background-color: $darkBlue-color;
     overflow-x: hidden;
-    padding: 6em 3em;
+    padding: 2em 3em 5em 3em;
 }
 
 .navbar-brand {
     display: block;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing:.1rem;
     margin-bottom: 1em;
     font-weight: bold;
@@ -74,7 +74,7 @@ body {
     opacity: .3;
     font-size: 48pt;
     color: white;
-    margin: 2rem 0 .5rem 0;
+    margin: 1rem 0 .5rem 0;
 }
 
 .btn-small {
