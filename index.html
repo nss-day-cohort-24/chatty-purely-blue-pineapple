@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Blue Pineapple Chat App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Montseratt and Lato -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Montserrat:400,700" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" media="screen" href="dist/css/main.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-    <div class="side-nav">
 
-        <nav class="navbar fixed-top navbar-light bg-light">
-            <a class="navbar-brand" href="#">Blue Pineapple Chat</a>
+    <header>
+        <nav class="nav-wrapper">
+            <a class="navbar-brand" href="#">Blue Pineapple Post</a>
+            <img scr="" class="logo" alt="Blue Pineapple chat logo">
 
-        <!-- form input for message -->
+        <!-- form message input in nav bar-->
 
             <form>
-                <div class="form-group">
-                    <label for="formGroupExampleInput">Hi Marc!</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                 <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Hi Marc!</label>
+                    <input type="text" class="form_input" id="form_input_message" placeholder="Example input" rows="3">
                 </div>
            
                     
@@ -27,30 +31,27 @@
 
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                <label class="form-check-label" for="inlineRadio1">Dark Theme</label>
+                <label class="form-check-label" for="inlineRadio1">Midnight Theme</label>
             </div>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">2</label>
+                <label class="form-check-label" for="inlineRadio2">Larger Text</label>
             </div>
-            <div class="form-check form-check-inline">
+            <!-- <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
                 <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
-            </div>
+            </div> -->
         </form>
-        </nav>
-    </div> <!-- close side navigation  -->
-
+        </nav><!-- close side navigation  -->
+    </header>
 
     <main class="message-Container">
 
         <section class="message-Container-wrapper">
-            <header>
+            
                 <h4>Name of channel</h4>
                 <!-- clear all message button here  -->
-                <button type="button" class="btn btn-outline-secondary">Clear Messages</button>
-
-            </header>
+                <button type="button" class="btn-small" >Clear Messages</button>
 
             <div id="messages"> <!-- message will appear in this div  -->
             </div>
@@ -58,10 +59,6 @@
         </section><!-- close message-Container-wrapper  -->
 
     </main> <!-- close message-Container -->
-
-
-
-
 
 
 

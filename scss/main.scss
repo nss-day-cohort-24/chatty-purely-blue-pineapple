@@ -1,32 +1,90 @@
+$font-head:  'Montserrat', sans-serif;
+$font-body:  'Lato', sans-serif;
+$darkBlue-color: #2c314f;
+$cyanLink-color: #7acdcf;
+$lightGray-color: #efeee9;
+$gray-color:#aaaaaa;
+$black-color: #1b1d28;
 
 
+.logo { 
+   display: block;
+}
 
-.navbar {
+.nav-wrapper {
     height: 100%;
     width: 50%;
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
-    background-color: #111;
+    right: 0;
+    background-color: $darkBlue-color;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding: 6em 3em;
 }
 
 .navbar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
+    display: block;
     font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
 }
 
 .navbar a:hover {
-    color: #f1f1f1;
+    color: $cyanLink-color;
 }
 
-.main {
-    margin-left: 50%; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 2em;
+.navbar-brand {
+    display: block;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    color: white;
+    margin: 2em 0 1em 0;
+    font-size: 2rem;
+}
+
+.form-check-label {
+    color: $gray-color;
+}
+
+.form_input {
+    width: 100%;
+    height: auto;
+    background-color: $lightGray-color;
+    white-space: initial;
+    padding: .1rem .7rem;
+}
+
+.btn-small {
+    border-radius: 1.5rem;
+    background-color: $gray-color;
+    padding: .1rem .7rem;
+    color: white;
+    font-size: .6em;
+}
+
+.btn-small:hover {
+    color: white;
+    border: 1px $gray-color;
+}
+
+.message-Container {
+    height: 100%;
+    width: 50%;
+    font-size: 16px; 
+    position: fixed;
+    z-index: 1;
+    display: block;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding: 3rem;
+
 }
