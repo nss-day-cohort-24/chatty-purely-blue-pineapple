@@ -1,10 +1,7 @@
-{
-    "messages":[
-        {"firstMessage":"Hey Marc!"}, 
-        {"secondMessage":"How's are you?"},
-        {"thirdMessage":"You up?"},
-        {"fourthMessage":"Why aren't you answering me?"},
-        {"fifthMessage":"Are you ghosting me rn?"}
-    ]
-    }
-
+[
+        {"message":"Hey Marc!"}, 
+        {"message":"How's are you?"},
+        {"message":"You up?"},
+        {"message":"Why aren't you answering me?"},
+        {"message":"Are you ghosting me rn?"}
+]
