@@ -1,0 +1,115 @@
+$font-head:  'Montserrat', sans-serif;
+$font-body:  'Lato', sans-serif;
+$darkBlue-color: #2c314f;
+$cyanLink-color: #7acdcf;
+$lightGray-color: #efeee9;
+$gray-color:#aaaaaa;
+$black-color: #1b1d28;
+
+
+html,
+body,
+ul,
+ol {
+  margin:  0;
+  padding: 0;
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+}
+
+body {
+    font: $font-body;
+}
+
+.logo { 
+   display: block;
+   padding: .5rem 0 1rem 0;
+}
+
+.nav-wrapper {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: $darkBlue-color;
+    overflow-x: hidden;
+    padding: 6em 3em;
+}
+
+.navbar-brand {
+    display: block;
+    color: white;
+    font-size: 10px;
+    letter-spacing:.1rem;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-brand a:hover {
+    color: $cyanLink-color;
+}
+
+.form-check-label {
+    color: $gray-color;
+}
+
+.form-input {
+    width: 100%;
+    height: auto;
+    background-color: $lightGray-color;
+    white-space: initial;
+    padding: .1rem .7rem;
+}
+
+.user {
+    font-family: $font-head;
+    color: $darkBlue-color;
+    opacity: .3;
+    font-size: 48pt;
+    color: white;
+    margin: 2rem 0 .5rem 0;
+}
+
+.btn-small {
+    border-radius: 1.5rem;
+    background-color: $gray-color;
+    padding: .1rem .7rem;
+    color: white;
+    font-size: .6em;
+    float: right;
+    text-transform: uppercase;
+}
+
+.btn-small:hover {
+    background-color: white;
+    border-style: 2px solid $gray-color;
+    color: $gray-color;
+}
+
+.message-Container {
+    height: 100%;
+    width: 50%;
+    font-size: 16px; 
+    position: fixed;
+    z-index: 1;
+    display: block;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding: 6em 4em;
+}
+
+
+
+
+
+
+
