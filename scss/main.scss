@@ -46,11 +46,12 @@ body {
 .navbar-brand {
     display: block;
     color: $cyanLink-color;
-    font-size: 12px;
-    letter-spacing:.1rem;
+    font-size: 1.2rem;
+    letter-spacing:.2rem;
     margin-bottom: 1em;
-    font-weight: bold;
+    font-weight: ligt;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .navbar-brand a:hover {
