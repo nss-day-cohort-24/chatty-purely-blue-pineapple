@@ -10,8 +10,10 @@ let clearButton = document.getElementById("clear-btn").addEventListener("click",
     if(messages.value > 0) {
         document.getElementById("clear-btn").disabled = false;
     } else{
-            document.getElementById("navbar-user-message").addEventListener("click", function enable(messages) {
-            document.getElementById("clear-btn").disabled = false; 
+            document.getElementById("navbar-user-message").addEventListener("keyup", function enable(messages) {
+                if (event.which === 13 || event.keyCode == 13) {
+                    document.getElementById("clear-btn").disabled = false; 
+                }
         });
             document.getElementById("clear-btn").disabled = true;
     } 
