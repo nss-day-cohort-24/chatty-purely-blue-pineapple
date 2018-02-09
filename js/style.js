@@ -37,7 +37,3 @@ checkBoxLarge.addEventListener("click", checkLarge);
 
 
 module.exports = {checkDark, checkLarge};
-
-
-
-

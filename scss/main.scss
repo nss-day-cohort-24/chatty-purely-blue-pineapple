@@ -132,7 +132,8 @@ body {
 
 .newMessage {
     font-size: .8em; 
-    line-height: 2em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 button.delete {
@@ -143,6 +144,10 @@ button.delete {
     font-size: 7px;
     float: right;
     padding: 8px 7px 8px 7px;
+}
+
+.userTime {
+    font-size: .8em;
 }
 
 
