@@ -32,12 +32,15 @@ checkBoxDark.addEventListener("click", checkDark);
 
 function checkLarge() {
     if (checkBoxLarge.checked === true) {
-        messageContainer.style.fontSize = "2em";
+        messageContainer.style.fontSize = "20px";
         // messageContainer.style.color = "white";
         console.log("the box is checked");
-    } else if (checkBoxLarge.checked === false) {
-        // messageContainer.style.fontSize = "1em";
-        // messageContainer.style.color = "#212529";
+    // } else if (checkBoxLarge.checked === false) {
+    //     // messageContainer.style.fontSize = "1em";
+    //     // messageContainer.style.color = "#212529";
+    // }
+    } else {
+        messageContainer.style.fontSize = "none";
     }
 }
 
