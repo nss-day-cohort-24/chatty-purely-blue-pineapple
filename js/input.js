@@ -19,10 +19,11 @@ function showMessage(inputJSON){
     let messageStuff = '';
     let time = new Date();
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    let fullDate = "<div class=userTime>Test User [" + days[time.getDay()] + " " + time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds() + "]</div>";
     for (let item in inputJSON){
         let messageItem = inputJSON[item];
         console.log(inputJSON[item]);
-        messageStuff += "<div class=newMessage><div class=userTime>Test User [" + days[time.getDay()] + " " + time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds() + "]</div>" + messageItem.message + "<button class=delete type=button>X</button></div>";
+        messageStuff += "<div class=newMessage>" + fullDate + messageItem.message + "<button class=delete type=button>X</button></div>";
     }
     messageDiv.innerHTML = messageStuff;
 }
@@ -54,7 +55,8 @@ function messageDisplay(){
     let messageDiv = document.getElementById("messages");
     let time = new Date();
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    messageDiv.innerHTML += "<div class=newMessage><div class=userTime>Marc [" + days[time.getDay()] + " " + time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds() + "]</div>" + inputMessage.value + "<button class=delete type =button>X</button></div>";
+    let fullDate = "<div class=userTime>Marc [" + days[time.getDay()] + " " + time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds() + "]</div>";
+    messageDiv.innerHTML += "<div class=newMessage>" + fullDate + inputMessage.value + "<button class=delete type =button>X</button></div>";
     messageHistory.unshift(inputMessage.value);
     inputMessage.value = '';
     console.log("New History:", messageHistory);
