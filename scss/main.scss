@@ -37,6 +37,7 @@ body {
     z-index: 1;
     top: 0;
     right: 0;
+    min-width: 20%;
     background-color: $darkBlue-color;
     box-shadow: -1px 10px 30px #aaaaaa;
     overflow-x: hidden;
@@ -55,6 +56,11 @@ body {
 
 .navbar-brand a:hover {
     color: $cyanLink-color;
+}
+
+.main-img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-check-label {
