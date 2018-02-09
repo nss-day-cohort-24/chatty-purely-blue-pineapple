@@ -39,14 +39,13 @@ body {
     right: 0;
     min-width: 20%;
     background-color: $darkBlue-color;
-    box-shadow: -1px 10px 30px #aaaaaa;
     overflow-x: hidden;
-    padding: 2em 3em 5em 3em;
+    padding: 32px 48px 64px 48px;
 }
 
 .navbar-brand {
     display: block;
-    color: white;
+    color: $cyanLink-color;
     font-size: 12px;
     letter-spacing:.1rem;
     margin-bottom: 1em;
@@ -120,9 +119,9 @@ body {
     display: block;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: $lightGray-color;
     overflow-x: hidden;
-    padding: 6em 4em;
+    padding: 64px 64px 32px 64px;
 }
 
 .message-header {
@@ -131,18 +130,18 @@ body {
 }
 
 .newMessage {
-    font-size: .9rem; 
-    line-height: 2rem;
+    font-size: .8em; 
+    line-height: 2em;
 }
 
 button.delete {
-    border-radius: 1.5em;
+    border-radius: 6px;
     line-height: .1rem;
-    background-color: white;
-    padding: .5rem .4rem;
-    color: $gray-color;
-    font-size: .1rem;
+    background-color: $gray-color;
+    color: $lightGray-color;
+    font-size: 7px;
     float: right;
+    padding: 8px 7px 8px 7px;
 }
 
 

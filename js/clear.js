@@ -19,5 +19,4 @@ let clearButton = document.getElementById("clear-btn").addEventListener("click",
     } 
 });
 
-
 module.exports = (clearButton);
