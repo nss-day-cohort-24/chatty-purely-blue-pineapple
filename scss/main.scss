@@ -73,17 +73,19 @@ body {
     font-family: $font-head;
     color: $darkBlue-color;
     opacity: .3;
-    font-size: 48pt;
+    font-size: 48px;
+    line-height: 42px;
     color: white;
     margin: 1rem 0 .5rem 0;
+    padding-bottom: .3em;
 }
 
 .btn-small {
     border-radius: 1.5rem;
     background-color: $gray-color;
-    padding: .1rem .7rem;
+    padding: .2rem .7rem;
     color: white;
-    font-size: .6em;
+    font-size: .5rem;
     float: right;
     text-transform: uppercase;
 }
@@ -107,7 +109,6 @@ body {
 .message-Container {
     height: 100%;
     width: 50%;
-    font-size: 16px; 
     position: fixed;
     z-index: 1;
     display: block;
@@ -122,6 +123,24 @@ body {
     display: block;
     padding-bottom: 3em;
 }
+
+.newMessage {
+    font-size: .9rem; 
+    line-height: 2rem;
+}
+
+button.delete {
+    border-radius: 1.5em;
+    line-height: .1rem;
+    background-color: white;
+    padding: .5rem .4rem;
+    color: $gray-color;
+    font-size: .1rem;
+    float: right;
+}
+
+
+
 
 
 
