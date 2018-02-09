@@ -11,6 +11,6 @@ let clearButton = document.getElementById("clear-btn").addEventListener("click",
     } else{
         document.getElementById("clear-btn").disabled = true;
     } 
-})
+});
 
 module.exports = (clearButton);
