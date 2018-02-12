@@ -24,12 +24,9 @@ checkBoxDark.addEventListener("click", checkDark);
 function checkLarge() {
     if (checkBoxLarge.checked === true) {
         messageContainer.style.fontSize = "2em";
-        // messageContainer.style.color = "white";
         console.log("the box is checked");
-        // return Grow;
     } else if (checkBoxLarge.checked === false) {
-        // messagesText.style.fontSize = "initial";
-        messageContainer.style.fontSize = "";
+        messageContainer.style.fontSize = "1em";
     }
 }
 
